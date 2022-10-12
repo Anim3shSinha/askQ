@@ -1,0 +1,38 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    background-image: url("https://media.istockphoto.com/photos/wooden-cube-blocks-with-question-mark-and-chat-symbols-qa-concept-picture-id1398036183?b=1&k=20&m=1398036183&s=612x612&w=0&h=U2_VfVcKG7eLSmSMij8bECXDld50Rfpl8TK1AcfP_Jo=");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1700px 500px;
+    background-color: rgb(99, 132, 215);
+}
+
+.login-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-content>img {
+    width: 300px;
+    object-fit: contain;
+    margin: 20px;
+}
+
+.login-content>button {
+    padding: 10px;
+    margin-top: 20px 0px;
+    background-color: #000;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    letter-spacing: 1.1px;
+    font-family: monospace;
+    cursor: pointer;
+}
